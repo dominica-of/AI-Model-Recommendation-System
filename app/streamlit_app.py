@@ -1,5 +1,6 @@
 import os
 import streamlit as st
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from backend.rag.retriever import Retriever
 from backend.rag.metadata_fetcher import MetadataFetcher
 from backend.rag.prompt_template import build_prompt
