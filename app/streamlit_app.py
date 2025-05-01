@@ -1,12 +1,12 @@
 import os
 import streamlit as st
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from backend.rag.retriever import Retriever
-from backend.rag.metadata_fetcher import MetadataFetcher
-from backend.rag.prompt_template import build_prompt
-from backend.rag.llm_inference import LLM
+from ..backend.rag.retriever import Retriever
+from ..backend.rag.metadata_fetcher import MetadataFetcher
+from ..backend.rag.prompt_template import build_prompt
+from ..backend.rag.llm_inference import LLM
 import pandas as pd
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 # Load secrets or env variable
 try:
     api_key = st.secrets["OPENAI_API_KEY"]
