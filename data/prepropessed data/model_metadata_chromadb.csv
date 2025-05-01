@@ -1,0 +1,266 @@
+Model,composite_text
+Bidirectional-LSTM,"Model: Bidirectional-LSTM. Task: Named Entity Recognition. Action:  Identify and classify named entities such as people, organizations, locations, and more. Input Data: Text. Framework: Tensorflow. Institution: Kamal Kraj"
+BERT,"Model: BERT. Task: Named Entity Recognition. Action:  Identify and classify named entities such as people, organizations, locations, and more. Input Data: Text. Framework: Tensorflow. Institution: Google"
+Flair,"Model: Flair. Task: Named Entity Recognition. Action:  Identify and classify named entities such as people, organizations, locations, and more. Input Data: Text. Framework: PyTorch. Institution: Flair"
+Sequence_tagging,"Model: Sequence_tagging. Task: Named Entity Recognition. Action:  Identify and classify named entities such as people, organizations, locations, and more. Input Data: Text. Framework: Tensorflow. Institution: Guillaume Genthial "
+gluon_nlp,"Model: gluon_nlp. Task: Named Entity Recognition. Action:  Identify and classify named entities such as people, organizations, locations, and more. Input Data: Text. Framework: mxnet. Institution: Gluon"
+tf_ner,"Model: tf_ner. Task: Named Entity Recognition. Action:  Identify and classify named entities such as people, organizations, locations, and more. Input Data: Text. Framework: Tensorflow. Institution: Guillaume Genthial"
+ERNIE,"Model: ERNIE. Task: Named Entity Recognition. Action:  Identify and classify named entities such as people, organizations, locations, and more. Input Data: Text. Framework: Paddle. Institution: n.a"
+nvidia/NV-Embed-v2,Model: nvidia/NV-Embed-v2. Task: Feature Extraction. Action: . Input Data: Text. Framework: . Institution: 
+intfloat/multilingual-e5-large,Model: intfloat/multilingual-e5-large. Task: Feature Extraction. Action: . Input Data: Text. Framework: . Institution: 
+canine-s,Model: canine-s. Task: Feature Extraction. Action: . Input Data: Text. Framework: . Institution: google
+Transformer XL,"Model: Transformer XL. Task: Part-of-Speech(POS) tagging. Action: assign a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text.. Input Data: Text. Framework: Tensorflow. Institution: Kimi Young"
+Sequence_tagging,"Model: Sequence_tagging. Task: Part-of-Speech(POS) tagging. Action: assign a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text.. Input Data: Text. Framework: Tensorflow. Institution: Guillaume Genthial "
+zh-ner-tf,"Model: zh-ner-tf. Task: Part-of-Speech(POS) tagging. Action: assign a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text.. Input Data: Text. Framework: Tensorflow. Institution: Penghui Wei"
+NCRF,"Model: NCRF. Task: Part-of-Speech(POS) tagging. Action: assign a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text.. Input Data: Text. Framework: PyTorch. Institution: Jie Yang"
+targer,"Model: targer. Task: Part-of-Speech(POS) tagging. Action: assign a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text.. Input Data: Text. Framework: PyTorch. Institution: Artem Chernodub"
+tf_ner,"Model: tf_ner. Task: Part-of-Speech(POS) tagging. Action: assign a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text.. Input Data: Text. Framework: Tensorflow. Institution: Guillaume Genthial "
+rnnmorph,"Model: rnnmorph. Task: Part-of-Speech(POS) tagging. Action: assign a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text.. Input Data: Text. Framework: ?. Institution: Ilya Gusev"
+BERT_Tensorflow,Model: BERT_Tensorflow. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: Tensorflow. Institution: Google
+RoBERTa,Model: RoBERTa. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: PyTorch. Institution: Facebook
+roberta-base-squad-2,Model: roberta-base-squad-2. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: Haystack. Institution: deepset ai
+BERT_DeepPavlov,Model: BERT_DeepPavlov. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: DeepPavlov. Institution: DeepPavlov lab
+Transformers,Model: Transformers. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: Paddle. Institution: Paddle
+ParlAI,Model: ParlAI. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: PyTorch. Institution: Facebook
+haystack,Model: haystack. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: PyTorch. Institution: deepset ai
+distilbert/distilbert-base-cased-distilled-squad,Model: distilbert/distilbert-base-cased-distilled-squad. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: . Institution: 
+deepset/bert-large-uncased-whole-word-masking-squad2,Model: deepset/bert-large-uncased-whole-word-masking-squad2. Task: Question Answering. Action: provide answers to questions based on the input data.. Input Data: Text. Framework: . Institution: 
+Seq2seq with Attention,Model: Seq2seq with Attention. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: Tensorflow. Institution: Google
+Fairseq,Model: Fairseq. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: PyTorch. Institution: Facebook
+Pegasus,Model: Pegasus. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: Tensorflow. Institution: Google
+BigBird,Model: BigBird. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: Tensorflow. Institution: Google
+Pointer-Generator network,Model: Pointer-Generator network. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: Tensorflow. Institution: Abi See
+tensor2tensor,Model: tensor2tensor. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: Tensorflow. Institution: n.a
+PaddleNLP,Model: PaddleNLP. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: Paddle. Institution: n.a
+Bert2Bert Small ,Model: Bert2Bert Small . Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: Pytorch. Institution: 
+facebook/bart-large-cnn,Model: facebook/bart-large-cnn. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: . Institution: 
+google/pegasus-cnn_dailymail,Model: google/pegasus-cnn_dailymail. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: . Institution: 
+google/pegasus-xsum,Model: google/pegasus-xsum. Task: Text summarization. Action:  Generate a concise summary of the input text.. Input Data: Text. Framework: . Institution: 
+BERT,"Model: BERT. Task: Sentiment Analysis. Action: determine the sentiment (positive, negative, or neutral) expressed in the text.. Input Data: Text. Framework: Tensorflow. Institution: Google"
+TextCNN,"Model: TextCNN. Task: Sentiment Analysis. Action: determine the sentiment (positive, negative, or neutral) expressed in the text.. Input Data: Text. Framework: Gluon. Institution: n.a"
+Universal Language Model Fine-tuning for Text Classification,"Model: Universal Language Model Fine-tuning for Text Classification. Task: Sentiment Analysis. Action: determine the sentiment (positive, negative, or neutral) expressed in the text.. Input Data: Text. Framework: PyTorch. Institution: Fast ai"
+Convolutional Neural Networks for Sentence Classification,"Model: Convolutional Neural Networks for Sentence Classification. Task: Sentiment Analysis. Action: determine the sentiment (positive, negative, or neutral) expressed in the text.. Input Data: Text. Framework: Paddle. Institution: Paddle"
+pyText,"Model: pyText. Task: Sentiment Analysis. Action: determine the sentiment (positive, negative, or neutral) expressed in the text.. Input Data: Text. Framework: PyTorch. Institution: Facebook"
+mt-dnn,"Model: mt-dnn. Task: Sentiment Analysis. Action: determine the sentiment (positive, negative, or neutral) expressed in the text.. Input Data: Text. Framework: PyTorch. Institution: Namisan"
+DeBERTa,"Model: DeBERTa. Task: Sentiment Analysis. Action: determine the sentiment (positive, negative, or neutral) expressed in the text.. Input Data: Text. Framework: PyTorch. Institution: Microsoft"
+Graph Attention Networks_Tensorflow,Model: Graph Attention Networks_Tensorflow. Task: Document Classification. Action: assign a category or class to the input document based on its content.. Input Data: Text. Framework: Tensorflow. Institution: Petar Veličković
+Hierarchical Attention Networks for Document Classification,Model: Hierarchical Attention Networks for Document Classification. Task: Document Classification. Action: assign a category or class to the input document based on its content.. Input Data: Text. Framework: PyTorch. Institution: EDGE
+Graph Attention Networks_PyTorch,Model: Graph Attention Networks_PyTorch. Task: Document Classification. Action: assign a category or class to the input document based on its content.. Input Data: Text. Framework: PyTorch. Institution: Diego Antognini
+Graph Convolutional Networks,Model: Graph Convolutional Networks. Task: Document Classification. Action: assign a category or class to the input document based on its content.. Input Data: Text. Framework: Tensorflow . Institution: Thomas Kipf
+Specter,Model: Specter. Task: Document Classification. Action: assign a category or class to the input document based on its content.. Input Data: Text. Framework: PyTorch. Institution: Allen AI
+DocBert,Model: DocBert. Task: Document Classification. Action: assign a category or class to the input document based on its content.. Input Data: Text. Framework: PyTorch. Institution: Castorini
+GloVe,Model: GloVe. Task: Document Classification. Action: assign a category or class to the input document based on its content.. Input Data: Text. Framework: ?. Institution: Stanford
+SeqGAN,"Model: SeqGAN. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: Tensorflow. Institution: Lantao Yu"
+BART,"Model: BART. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: PyTorch. Institution: Huggingface"
+Char-rnn-tensorflow,"Model: Char-rnn-tensorflow. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: Tensorflow. Institution: Sherjil Ozair"
+Transformers,"Model: Transformers. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: PyTorch. Institution: HuggingFace"
+Unified Language Model Pre-Training,"Model: Unified Language Model Pre-Training. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: PyTorch. Institution: Microsoft"
+neuraltalk2,"Model: neuraltalk2. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: PyTorch. Institution: Karpathy"
+fairseq,"Model: fairseq. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: PyTorch. Institution: Facebook"
+deepseek-ai/DeepSeek-V3-0324,"Model: deepseek-ai/DeepSeek-V3-0324. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: . Institution: "
+meta-llama/Meta-Llama-3-8B,"Model: meta-llama/Meta-Llama-3-8B. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: . Institution: "
+deepseek-ai/DeepSeek-R1,"Model: deepseek-ai/DeepSeek-R1. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: . Institution: "
+google/byt5-base,"Model: google/byt5-base. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: . Institution: "
+google/flan-t5-xxl,"Model: google/flan-t5-xxl. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: . Institution: "
+facebook/m2m100_418M,"Model: facebook/m2m100_418M. Task: Text Generation. Action: generate new text based on the input, such as creative writing, article generation, or dialogue.. Input Data: Text. Framework: . Institution: "
+sentence-transformers/all-MiniLM-L6-v2,Model: sentence-transformers/all-MiniLM-L6-v2. Task: Sentence Similarity. Action: . Input Data: Text. Framework: . Institution: 
+sentence-transformers/all-mpnet-base-v2,Model: sentence-transformers/all-mpnet-base-v2. Task: Sentence Similarity. Action: . Input Data: Text. Framework: . Institution: 
+BAAI/bge-m3,Model: BAAI/bge-m3. Task: Sentence Similarity. Action: . Input Data: Text. Framework: . Institution: 
+Attention is all you need,Model: Attention is all you need. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: Tensorflow. Institution: Google
+Tensor2tensor,Model: Tensor2tensor. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: Tensorflow. Institution: Tensorflow
+PyTorch-Seq2Seq,Model: PyTorch-Seq2Seq. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: PyTorch. Institution: IBM
+nmt-keras,Model: nmt-keras. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: Tensorflow. Institution: Ivapeab
+sockeye,Model: sockeye. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: mxnet. Institution: Awslabs
+marian,Model: marian. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: ?. Institution: Marian-nmt
+Fairseq,Model: Fairseq. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: PyTorch. Institution: Facebook
+Tensorpack,Model: Tensorpack. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: Tensorflow. Institution: Google
+PyTorch-GAN,Model: PyTorch-GAN. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: PyTorch. Institution: Erik Linder-Noren
+CycleGAN,Model: CycleGAN. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: Tensorflow. Institution: Jun-Yan Zhu
+transformers,Model: transformers. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: PyTorch. Institution: HuggingFace
+MUSE,Model: MUSE. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: PyTorch. Institution: Facebook
+facebook/mbart-large-50-many-to-many-mmt,Model: facebook/mbart-large-50-many-to-many-mmt. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: . Institution: 
+Helsinki-NLP/opus-mt-de-en,Model: Helsinki-NLP/opus-mt-de-en. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: . Institution: 
+google-t5/t5-base,Model: google-t5/t5-base. Task: Machine translation. Action: translate the input text into another target language.. Input Data: Text. Framework: . Institution: 
+distilbert-base-uncased-finetuned-sst-2-english,Model: distilbert-base-uncased-finetuned-sst-2-english. Task: Text Classification. Action: . Input Data: Text. Framework: . Institution: 
+cardiffnlp/twitter-roberta-base-sentiment,Model: cardiffnlp/twitter-roberta-base-sentiment. Task: Text Classification. Action: . Input Data: Text. Framework: . Institution: 
+FacebookAI/roberta-large-mnli,Model: FacebookAI/roberta-large-mnli. Task: Text Classification. Action: . Input Data: Text. Framework: . Institution: 
+impira/layoutlm-document-qa,Model: impira/layoutlm-document-qa. Task: Document Question Answering. Action: . Input Data: Text. Framework: . Institution: 
+naver-clova-ix/donut-base-finetuned-docvqa,Model: naver-clova-ix/donut-base-finetuned-docvqa. Task: Document Question Answering. Action: . Input Data: Text. Framework: . Institution: 
+jinhybr/OCR-DocVQA-Donut,Model: jinhybr/OCR-DocVQA-Donut. Task: Document Question Answering. Action: . Input Data: Text. Framework: . Institution: 
+coqui/XTTS-v2,Model: coqui/XTTS-v2. Task: Text-to-Speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: . Institution: 
+hexgrad/Kokoro-82M,Model: hexgrad/Kokoro-82M. Task: Text-to-Speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: . Institution: 
+suno/bark,Model: suno/bark. Task: Text-to-Speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: . Institution: 
+coqui/XTTS-v2,Model: coqui/XTTS-v2. Task: Text-to-Speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: . Institution: 
+demucs,Model: demucs. Task: Text-to-Speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: . Institution: 
+2Noise/ChatTTS,Model: 2Noise/ChatTTS. Task: Text-to-Speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: . Institution: 
+Wavenet,Model: Wavenet. Task: Text to speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: Tensorflow. Institution: n.a
+fairseq,Model: fairseq. Task: Text to speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: PyTorch. Institution: Facebook
+waveglow,Model: waveglow. Task: Text to speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: PyTorch. Institution: n.a
+Tacotron,Model: Tacotron. Task: Text to speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: Tensorflow. Institution: Corentin Jemine
+TTS,Model: TTS. Task: Text to speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: PyTorch. Institution: Coqui-ai
+PaddleSpeech,Model: PaddleSpeech. Task: Text to speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: Paddle. Institution: Paddle
+TensorflowTTS,Model: TensorflowTTS. Task: Text to speech. Action: convert the written text into spoken audio.. Input Data: Text. Framework: Tensorflow. Institution: as-ideas
+Lightricks/LTX-Video,Model: Lightricks/LTX-Video. Task: Text-to-Video. Action: convert the written text into video.. Input Data: Text. Framework: . Institution: 
+tencent/HunyuanVideo,Model: tencent/HunyuanVideo. Task: Text-to-Video. Action: convert the written text into video.. Input Data: Text. Framework: . Institution: 
+THUDM/CogVideoX-5b,Model: THUDM/CogVideoX-5b. Task: Text-to-Video. Action: convert the written text into video.. Input Data: Text. Framework: . Institution: 
+DeepSpeech,Model: DeepSpeech. Task: Speech to text. Action: convert the spoken words into text.. Input Data: Audio. Framework: Tensorflow. Institution: n.a
+"Listen, Attend and Spell","Model: Listen, Attend and Spell. Task: Speech to text. Action: convert the spoken words into text.. Input Data: Audio. Framework: PyTorch. Institution: n.a"
+Neural Collaborative Filtering,Model: Neural Collaborative Filtering. Task: Speech to text. Action: convert the spoken words into text.. Input Data: Audio. Framework: Tensorflow. Institution: n.a
+DeepSpeech 2,Model: DeepSpeech 2. Task: Speech to text. Action: convert the spoken words into text.. Input Data: Audio. Framework: Paddle. Institution: n.a
+Fairseq S2T,Model: Fairseq S2T. Task: Speech to text. Action: convert the spoken words into text.. Input Data: Audio. Framework: PyTorch. Institution: Facebook
+Qwen/Qwen2-Audio-7B-Instruct,Model: Qwen/Qwen2-Audio-7B-Instruct. Task: Speech to text. Action: . Input Data: Audio. Framework: . Institution: 
+fixie-ai/ultravox-v0_5-llama-3_2-1b,Model: fixie-ai/ultravox-v0_5-llama-3_2-1b. Task: Speech to text. Action: . Input Data: Audio. Framework: . Institution: 
+openai/whisper-large-v3-turbo,Model: openai/whisper-large-v3-turbo. Task: Speech to text. Action: . Input Data: Audio. Framework: . Institution: 
+facebook/wav2vec2-base-960h,Model: facebook/wav2vec2-base-960h. Task: Automatic speech Recognition. Action: . Input Data: Audio. Framework: . Institution: 
+deepspeech,Model: deepspeech. Task: Automatic speech Recognition. Action: . Input Data: Audio. Framework: . Institution: 
+openai/whisper-large-v3,Model: openai/whisper-large-v3. Task: Automatic speech Recognition. Action: . Input Data: Audio. Framework: . Institution: 
+stabilityai/stable-audio-open-1.0,Model: stabilityai/stable-audio-open-1.0. Task: Audio-to-Audio. Action: . Input Data: Audio. Framework: . Institution: 
+demucs,Model: demucs. Task: Audio-to-Audio. Action: . Input Data: Audio. Framework: . Institution: 
+ConvTasNet,Model: ConvTasNet. Task: Audio-to-Audio. Action: . Input Data: Audio. Framework: . Institution: 
+facebook/wav2vec2-large-robust,Model: facebook/wav2vec2-large-robust. Task: Audio Classification. Action: . Input Data: Audio. Framework: . Institution: 
+YAMnet,Model: YAMnet. Task: Audio Classification. Action: . Input Data: Audio. Framework: . Institution: 
+MIT/ast-finetuned-audioset-10-10-0.4593,Model: MIT/ast-finetuned-audioset-10-10-0.4593. Task: Audio Classification. Action: . Input Data: Audio. Framework: . Institution: 
+opensmile,Model: opensmile. Task: Voice Activity Detection. Action: . Input Data: Audio. Framework: . Institution: 
+pyannote/segmentation-3.0,Model: pyannote/segmentation-3.0. Task: Voice Activity Detection. Action: . Input Data: Audio. Framework: . Institution: 
+silvero vad,Model: silvero vad. Task: Voice Activity Detection. Action: . Input Data: Audio. Framework: . Institution: 
+Qwen/Qwen2.5-VL-7B-Instruct,Model: Qwen/Qwen2.5-VL-7B-Instruct. Task: Image to Text. Action: . Input Data: Video/Images. Framework: . Institution: 
+meta-llama/Llama-3.2-11B-Vision-Instruct,Model: meta-llama/Llama-3.2-11B-Vision-Instruct. Task: Image to Text. Action: . Input Data: Video/Images. Framework: . Institution: 
+google/gemma-3-27b-it,Model: google/gemma-3-27b-it. Task: Image to Text. Action: . Input Data: Video/Images. Framework: . Institution: 
+Video-R1/Video-R1-7B,Model: Video-R1/Video-R1-7B. Task: Video to Text. Action: . Input Data: Video/Images. Framework: . Institution: 
+llava-hf/LLaVA-NeXT-Video-7B-hf,Model: llava-hf/LLaVA-NeXT-Video-7B-hf. Task: Video to Text. Action: . Input Data: Video/Images. Framework: . Institution: 
+lmms-lab/LLaVA-Video-7B-Qwen2,Model: lmms-lab/LLaVA-Video-7B-Qwen2. Task: Video to Text. Action: . Input Data: Video/Images. Framework: . Institution: 
+SSD,Model: SSD. Task: Object detection. Action: detect and localize objects of interest within the input.. Input Data: Video/Images. Framework: MXNet. Institution: n.a
+Darknet,Model: Darknet. Task: Object detection. Action: detect and localize objects of interest within the input.. Input Data: Video/Images. Framework: Tensorflow. Institution: Alexey
+Faster-rcnn,Model: Faster-rcnn. Task: Object detection. Action: detect and localize objects of interest within the input.. Input Data: Video/Images. Framework: PyTorch. Institution: n.a
+Mask-RCNN,Model: Mask-RCNN. Task: Object detection. Action: detect and localize objects of interest within the input.. Input Data: Video/Images. Framework: Tensorflow. Institution: MatterPort
+Detectron 2,Model: Detectron 2. Task: Object detection. Action: detect and localize objects of interest within the input.. Input Data: Video/Images. Framework: PyTorch. Institution: Facebook
+pytorch-image-models,Model: pytorch-image-models. Task: Object detection. Action: detect and localize objects of interest within the input.. Input Data: Video/Images. Framework: PyTorch. Institution: rwightman
+PaddleOCR,Model: PaddleOCR. Task: Object detection. Action: detect and localize objects of interest within the input.. Input Data: Video/Images. Framework: Paddle. Institution: Paddle
+IDEA-Research/grounding-dino-base,Model: IDEA-Research/grounding-dino-base. Task: Zero-shot Object Detection. Action: . Input Data: Video/Images. Framework: . Institution: 
+google/owlvit-base-patch32,Model: google/owlvit-base-patch32. Task: Zero-shot Object Detection. Action: . Input Data: Video/Images. Framework: . Institution: 
+google/owlv2-large-patch14-ensemble,Model: google/owlv2-large-patch14-ensemble. Task: Zero-shot Object Detection. Action: . Input Data: Video/Images. Framework: . Institution: 
+Mask R-CNN,Model: Mask R-CNN. Task: Pose estimation. Action: estimate the pose or body positioning of people or objects within the input.. Input Data: Video/Images. Framework: Tensorflow. Institution: n.a
+alpha_pose_resnet101,Model: alpha_pose_resnet101. Task: Pose estimation. Action: estimate the pose or body positioning of people or objects within the input.. Input Data: Video/Images. Framework: MXNet. Institution: Hao-Shu FANG
+Openpose,Model: Openpose. Task: Pose estimation. Action: estimate the pose or body positioning of people or objects within the input.. Input Data: Video/Images. Framework: PyTorch. Institution: n.a
+Detectron 2,Model: Detectron 2. Task: Pose estimation. Action: estimate the pose or body positioning of people or objects within the input.. Input Data: Video/Images. Framework: PyTorch. Institution: Facebook
+mmpose,Model: mmpose. Task: Pose estimation. Action: estimate the pose or body positioning of people or objects within the input.. Input Data: Video/Images. Framework: PyTorch. Institution: Open-mmlab
+DeepLabCut,Model: DeepLabCut. Task: Pose estimation. Action: estimate the pose or body positioning of people or objects within the input.. Input Data: Video/Images. Framework: Tensorflow. Institution: DeepLabCut
+AdelaiDet,Model: AdelaiDet. Task: Pose estimation. Action: estimate the pose or body positioning of people or objects within the input.. Input Data: Video/Images. Framework: PyTorch. Institution: n.a
+MobileNetV2,Model: MobileNetV2. Task: Image classfication. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: MXNet. Institution: n.a
+EfficientNet,Model: EfficientNet. Task: Image classfication. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: Tensorflow. Institution: Google
+resnest269,Model: resnest269. Task: Image classfication. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: Gluon. Institution: n.a
+ClassyVision,Model: ClassyVision. Task: Image classfication. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: PyTorch. Institution: n.a
+SqueezeNet,Model: SqueezeNet. Task: Image classfication. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: Caffe2. Institution: n.a
+Super-gradients,Model: Super-gradients. Task: Image classfication. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: PyTorch. Institution: Deci AI
+vissl,Model: vissl. Task: Image classfication. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: PyTorch. Institution: Facebook
+timm/mobilenetv3_small_100.lamb_in1k,Model: timm/mobilenetv3_small_100.lamb_in1k. Task: Image Classification. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: . Institution: 
+nvidia/MambaVision-L3-512-21K,Model: nvidia/MambaVision-L3-512-21K. Task: Image Classification. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: . Institution: 
+google/vit-base-patch16-224,Model: google/vit-base-patch16-224. Task: Image Classification. Action: assign a label or category to the input image based on its content.. Input Data: Video/Images. Framework: . Institution: 
+openai/clip-vit-large-patch14,Model: openai/clip-vit-large-patch14. Task: Zero-shot Image Classification. Action: . Input Data: Video/Images. Framework: . Institution: 
+google/siglip-so400m-patch14-384,Model: google/siglip-so400m-patch14-384. Task: Zero-shot Image Classification. Action: . Input Data: Video/Images. Framework: . Institution: 
+microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224,Model: microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224. Task: Zero-shot Image Classification. Action: . Input Data: Video/Images. Framework: . Institution: 
+Non-local neural networks,Model: Non-local neural networks. Task: Action recognition. Action: identify and classify the actions performed by people or objects in the input video.. Input Data: Video/Images. Framework: Caffe2. Institution: n.a
+Grad-Cam++,Model: Grad-Cam++. Task: Action recognition. Action: identify and classify the actions performed by people or objects in the input video.. Input Data: Video/Images. Framework: Tensorflow. Institution: n.a
+slowfast,Model: slowfast. Task: Action recognition. Action: identify and classify the actions performed by people or objects in the input video.. Input Data: Video/Images. Framework: Gluon. Institution: n.a
+3D-ResNets-PyTorch,Model: 3D-ResNets-PyTorch. Task: Action recognition. Action: identify and classify the actions performed by people or objects in the input video.. Input Data: Video/Images. Framework: PyTorch. Institution: n.a
+PaddleDetection(non-local-neural-networks),Model: PaddleDetection(non-local-neural-networks). Task: Action recognition. Action: identify and classify the actions performed by people or objects in the input video.. Input Data: Video/Images. Framework: Paddle. Institution: n.a
+Towhee,Model: Towhee. Task: Action recognition. Action: identify and classify the actions performed by people or objects in the input video.. Input Data: Video/Images. Framework: PyTorch. Institution: Towhee-io
+scenic,Model: scenic. Task: Action recognition. Action: identify and classify the actions performed by people or objects in the input video.. Input Data: Video/Images. Framework: JAX. Institution: Google
+facebook/sam-vit-huge,Model: facebook/sam-vit-huge. Task: Mask Generation. Action: . Input Data: Video/Images. Framework: . Institution: 
+Zigeng/SlimSAM-uniform-77,Model: Zigeng/SlimSAM-uniform-77. Task: Mask Generation. Action: . Input Data: Video/Images. Framework: . Institution: 
+facebook/sam2.1-hiera-large,Model: facebook/sam2.1-hiera-large. Task: Mask Generation. Action: . Input Data: Video/Images. Framework: . Institution: 
+Zhengyi/LLaMA-Mesh,Model: Zhengyi/LLaMA-Mesh. Task: Text-to-3d. Action: . Input Data: Video/Images. Framework: . Institution: 
+openai/shap-e,Model: openai/shap-e. Task: Text-to-3d. Action: . Input Data: Video/Images. Framework: . Institution: 
+ashawkey/LGM,Model: ashawkey/LGM. Task: Text-to-3d. Action: . Input Data: Video/Images. Framework: . Institution: 
+TencentARC/InstantMesh,Model: TencentARC/InstantMesh. Task: Image-to-3d. Action: . Input Data: Video/Images. Framework: . Institution: 
+JeffreyXiang/TRELLIS-image-large,Model: JeffreyXiang/TRELLIS-image-large. Task: Image-to-3d. Action: . Input Data: Video/Images. Framework: . Institution: 
+stabilityai/TripoSR,Model: stabilityai/TripoSR. Task: Image-to-3d. Action: . Input Data: Video/Images. Framework: . Institution: 
+zongzhuofan/co-detr-vit-large-coco,Model: zongzhuofan/co-detr-vit-large-coco. Task: Image Segmentation. Action: . Input Data: Video/Images. Framework: . Institution: 
+briaai/RMBG-2.0,Model: briaai/RMBG-2.0. Task: Image Segmentation. Action: . Input Data: Video/Images. Framework: . Institution: 
+ZhengPeng7/BiRefNet_HR,Model: ZhengPeng7/BiRefNet_HR. Task: Image Segmentation. Action: . Input Data: Video/Images. Framework: . Institution: 
+Fully convolutional Networks for Semantic Segmentation,"Model: Fully convolutional Networks for Semantic Segmentation. Task: Semantic Segmentation. Action:  assign a semantic label to each pixel in the input image, effectively segmenting the image into meaningful regions or objects.. Input Data: Video/Images. Framework: Caffe2. Institution: n.a"
+SegNet,"Model: SegNet. Task: Semantic Segmentation. Action:  assign a semantic label to each pixel in the input image, effectively segmenting the image into meaningful regions or objects.. Input Data: Video/Images. Framework: MXNet. Institution: n.a"
+Mask R-CNN,"Model: Mask R-CNN. Task: Semantic Segmentation. Action:  assign a semantic label to each pixel in the input image, effectively segmenting the image into meaningful regions or objects.. Input Data: Video/Images. Framework: Tensorflow. Institution: n.a"
+deeplab_resnet_152_coco,"Model: deeplab_resnet_152_coco. Task: Semantic Segmentation. Action:  assign a semantic label to each pixel in the input image, effectively segmenting the image into meaningful regions or objects.. Input Data: Video/Images. Framework: Gluon. Institution: n.a"
+Pytorch-semantic-segmentation,"Model: Pytorch-semantic-segmentation. Task: Semantic Segmentation. Action:  assign a semantic label to each pixel in the input image, effectively segmenting the image into meaningful regions or objects.. Input Data: Video/Images. Framework: PyTorch. Institution: n.a"
+imgclsmob,"Model: imgclsmob. Task: Semantic Segmentation. Action:  assign a semantic label to each pixel in the input image, effectively segmenting the image into meaningful regions or objects.. Input Data: Video/Images. Framework: mxnet. Institution: n.a"
+dandelin/vilt-b32-finetuned-vqa,Model: dandelin/vilt-b32-finetuned-vqa. Task: Visual Question Answering. Action: . Input Data: Video/Images. Framework: . Institution: 
+Salesforce/blip-vqa-base,Model: Salesforce/blip-vqa-base. Task: Visual Question Answering. Action: . Input Data: Video/Images. Framework: . Institution: 
+openbmb/MiniCPM-Llama3-V-2_5-int4,Model: openbmb/MiniCPM-Llama3-V-2_5-int4. Task: Visual Question Answering. Action: . Input Data: Video/Images. Framework: . Institution: 
+segmentation-models,"Model: segmentation-models. Task: Semantic Segmentation. Action:  assign a semantic label to each pixel in the input image, effectively segmenting the image into meaningful regions or objects.. Input Data: Video/Images. Framework: Tensorflow. Institution: n.a"
+depth-anything/Depth-Anything-V2-Small-hf,Model: depth-anything/Depth-Anything-V2-Small-hf. Task: Depth Estimation. Action: . Input Data: Video/Images. Framework: . Institution: 
+tencent/DepthCrafter,Model: tencent/DepthCrafter. Task: Depth Estimation. Action: . Input Data: Video/Images. Framework: . Institution: 
+Intel/dpt-hybrid-midas,Model: Intel/dpt-hybrid-midas. Task: Depth Estimation. Action: . Input Data: Video/Images. Framework: . Institution: 
+Ultralytics/YOLOv8,Model: Ultralytics/YOLOv8. Task: Object Detection. Action: . Input Data: Video/Images. Framework: . Institution: 
+facebook/detr-resnet-50,Model: facebook/detr-resnet-50. Task: Object Detection. Action: . Input Data: Video/Images. Framework: . Institution: 
+microsoft/table-transformer-detection,Model: microsoft/table-transformer-detection. Task: Object Detection. Action: . Input Data: Video/Images. Framework: . Institution: 
+stable-diffusion-v1-5/stable-diffusion-v1-5,Model: stable-diffusion-v1-5/stable-diffusion-v1-5. Task: Text-to-Image. Action: . Input Data: Video/Images. Framework: . Institution: 
+black-forest-labs/FLUX.1-dev,Model: black-forest-labs/FLUX.1-dev. Task: Text-to-Image. Action: . Input Data: Video/Images. Framework: . Institution: 
+,Model: . Task: Text-to-Image. Action: . Input Data: Video/Images. Framework: . Institution: 
+stabilityai/stable-diffusion-xl-refiner-1.0,Model: stabilityai/stable-diffusion-xl-refiner-1.0. Task: Image-to-image. Action: . Input Data: Video/Images. Framework: . Institution: 
+,Model: . Task: . Action: . Input Data: Video/Images. Framework: . Institution: 
+,Model: . Task: . Action: . Input Data: Video/Images. Framework: . Institution: 
+,Model: . Task: . Action: . Input Data: Video/Images. Framework: . Institution: 
+lllyasviel/sd-controlnet-canny,Model: lllyasviel/sd-controlnet-canny. Task: Image-to-image. Action: . Input Data: Video/Images. Framework: . Institution: 
+stable-diffusion-v1-5/stable-diffusion-inpainting,Model: stable-diffusion-v1-5/stable-diffusion-inpainting. Task: Image-to-image. Action: . Input Data: Video/Images. Framework: . Institution: 
+Salesforce/blip-image-captioning-base,Model: Salesforce/blip-image-captioning-base. Task: Image-to-text. Action: . Input Data: Video/Images. Framework: . Institution: 
+microsoft/trocr-base-handwritten,Model: microsoft/trocr-base-handwritten. Task: Image-to-text. Action: . Input Data: Video/Images. Framework: . Institution: 
+IAMJB/chexpert-mimic-cxr-findings-baseline,Model: IAMJB/chexpert-mimic-cxr-findings-baseline. Task: Image-to-text. Action: . Input Data: Video/Images. Framework: . Institution: 
+stabilityai/stable-video-diffusion-img2vid-xt,Model: stabilityai/stable-video-diffusion-img2vid-xt. Task: Image-to-video. Action: . Input Data: Video/Images. Framework: . Institution: 
+Wan-AI/Wan2.1-I2V-14B-480P-Diffusers,Model: Wan-AI/Wan2.1-I2V-14B-480P-Diffusers. Task: Image-to-video. Action: . Input Data: Video/Images. Framework: . Institution: 
+tencent/HunyuanVideo-I2V,Model: tencent/HunyuanVideo-I2V. Task: Image-to-video. Action: . Input Data: Video/Images. Framework: . Institution: 
+xclid,Model: xclid. Task: Video Classification . Action: . Input Data: Video/Images. Framework: . Institution: 
+videomaev2,Model: videomaev2. Task: Video Classification . Action: . Input Data: Video/Images. Framework: . Institution: 
+vivit-b,Model: vivit-b. Task: Video Classification . Action: . Input Data: Video/Images. Framework: . Institution: 
+google/vit-base-patch16-224-in21k,Model: google/vit-base-patch16-224-in21k. Task: Image Feature Extraction. Action: . Input Data: Video/Images. Framework: . Institution: 
+facebook/dinov2-base,Model: facebook/dinov2-base. Task: Image Feature Extraction. Action: . Input Data: Video/Images. Framework: . Institution: 
+nvidia/MambaVision-S-1K,Model: nvidia/MambaVision-S-1K. Task: Image Feature Extraction. Action: . Input Data: Video/Images. Framework: . Institution: 
+Nothing for Descriptive Analysis,Model: Nothing for Descriptive Analysis. Task: Descriptive analysis. Action: summarize and describe the input data using statistical techniques.. Input Data: Tabular data. Framework: ?. Institution: 
+ShapeNet,"Model: ShapeNet. Task: Recommender systems. Action:  recommend relevant items (e.g., products, movies, music) to users based on their preferences and behaviors.. Input Data: Tabular data. Framework: Tensorflow. Institution: N.a"
+Adversarial Autoencoders,"Model: Adversarial Autoencoders. Task: Recommender systems. Action:  recommend relevant items (e.g., products, movies, music) to users based on their preferences and behaviors.. Input Data: Tabular data. Framework: PyTorch. Institution: N.a"
+Recommenders,"Model: Recommenders. Task: Recommender systems. Action:  recommend relevant items (e.g., products, movies, music) to users based on their preferences and behaviors.. Input Data: Tabular data. Framework: Tensorflow. Institution: N.a"
+mildnet,"Model: mildnet. Task: Recommender systems. Action:  recommend relevant items (e.g., products, movies, music) to users based on their preferences and behaviors.. Input Data: Tabular data. Framework: Tensorflow. Institution: gofynd"
+ParlAI,"Model: ParlAI. Task: Recommender systems. Action:  recommend relevant items (e.g., products, movies, music) to users based on their preferences and behaviors.. Input Data: Tabular data. Framework: PyTorch. Institution: Facebook"
+PaddleRec,"Model: PaddleRec. Task: Recommender systems. Action:  recommend relevant items (e.g., products, movies, music) to users based on their preferences and behaviors.. Input Data: Tabular data. Framework: Paddle. Institution: PaddlePaddle"
+FuxiCTR,"Model: FuxiCTR. Task: Recommender systems. Action:  recommend relevant items (e.g., products, movies, music) to users based on their preferences and behaviors.. Input Data: Tabular data. Framework: PyTorch. Institution: Xue-p ai"
+ibm-granite/granite-timeseries-ttm-r1,Model: ibm-granite/granite-timeseries-ttm-r1. Task: Time Series Forecasting. Action: . Input Data: . Framework: . Institution: 
+Temporal Fusion Transformer (TFT),Model: Temporal Fusion Transformer (TFT). Task: Time Series Forecasting. Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: Tensorflow. Institution: N.a
+LSTNet,Model: LSTNet. Task: Time Series Forecasting. Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: PyTorch. Institution: N.a
+darts,Model: darts. Task: Time Series Forecasting. Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: PyTorch. Institution: N.a
+gluon-ts,Model: gluon-ts. Task: Time Series Forecasting. Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: mxnet. Institution: awslab
+qlib,Model: qlib. Task: Time Series Forecasting. Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: PyTorch. Institution: Microsoft 
+DCRNN,Model: DCRNN. Task: Time Series Forecasting. Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: Tensorflow. Institution: liyaguang
+n-beats,Model: n-beats. Task: Time Series Forecasting. Action: . Input Data: . Framework: . Institution: 
+pytorch_geometric_temporal,Model: pytorch_geometric_temporal. Task: Time Series Forecasting. Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: PyTorch. Institution: Benedekrozemberczki
+tapas-base-finetuned-wtq,Model: tapas-base-finetuned-wtq. Task: Table Question Answering . Action: provide answers to questions based on the input data.. Input Data: Tabular data. Framework: . Institution: google
+tapas-large-finetuned-wtq,Model: tapas-large-finetuned-wtq. Task: Table Question Answering . Action: provide answers to questions based on the input data.. Input Data: Tabular data. Framework: . Institution: google
+tapex-large-finetuned-wtq,Model: tapex-large-finetuned-wtq. Task: Table Question Answering . Action: provide answers to questions based on the input data.. Input Data: Tabular data. Framework: . Institution: microsoft
+Efficient Estimation of Word Representations in Vector Space,Model: Efficient Estimation of Word Representations in Vector Space. Task: Recommender systems. Action: predict/recommend future values based on historical patterns.. Input Data: Tabular data. Framework: Tensorflow. Institution: N.a
+Convolutional Neural Networks for Sentence Classification,Model: Convolutional Neural Networks for Sentence Classification. Task: Sentence Classification . Action: perform sentence classification based on papers. Input Data: Text. Framework: PyTorch. Institution: N.a
+DeepCTR,Model: DeepCTR. Task: Forecast (time series forcast). Action: predict future values based on historical patterns.. Input Data: Tabular data. Framework: Tensorflow. Institution: N.a
+TabNet,Model: TabNet. Task: Tabular Classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+XGBoost,Model: XGBoost. Task: Tabular Classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+CatBoost,Model: CatBoost. Task: Tabular Classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+XGBoost,Model: XGBoost. Task: Tabular Regression. Action: . Input Data: Tabular data. Framework: . Institution: 
+LightGBM,Model: LightGBM. Task: Tabular Regression. Action: . Input Data: Tabular data. Framework: . Institution: 
+TabNet,Model: TabNet. Task: Tabular Regression. Action: . Input Data: Tabular data. Framework: . Institution: 
+facebook/bart-large-cnn,Model: facebook/bart-large-cnn. Task: Tabular to Text. Action: . Input Data: Tabular data. Framework: . Institution: 
+google-t5/t5-base,Model: google-t5/t5-base. Task: Tabular to Text. Action: . Input Data: Tabular data. Framework: . Institution: 
+Narrativaai/bloom-560m-finetuned-totto-table-to-text,Model: Narrativaai/bloom-560m-finetuned-totto-table-to-text. Task: Table to Text. Action: . Input Data: Tabular data. Framework: . Institution: 
+Yale-LILY/reastap-large-finetuned-logicnlg,Model: Yale-LILY/reastap-large-finetuned-logicnlg. Task: Table to Text. Action: . Input Data: Tabular data. Framework: . Institution: 
+Multimodal Toolkit,Model: Multimodal Toolkit. Task: Tabular to Text. Action: . Input Data: Tabular data. Framework: . Institution: 
+ValueFX9507/Tifa-DeepsexV2-7b-MGRPO-GGUF-Q8,Model: ValueFX9507/Tifa-DeepsexV2-7b-MGRPO-GGUF-Q8. Task: Reinforcement Learning. Action: . Input Data: Tabular data. Framework: . Institution: 
+Open-Reasoner-Zero/Open-Reasoner-Zero-Critic-32B,Model: Open-Reasoner-Zero/Open-Reasoner-Zero-Critic-32B. Task: Reinforcement Learning. Action: . Input Data: Tabular data. Framework: . Institution: 
+ThomasSimonini/ppo-AntBulletEnv-v0,Model: ThomasSimonini/ppo-AntBulletEnv-v0. Task: Reinforcement Learning. Action: . Input Data: Tabular data. Framework: . Institution: 
+lerobot/pi0,Model: lerobot/pi0. Task: Robotics. Action: . Input Data: Tabular data. Framework: . Institution: 
+nvidia/GR00T-N1-2B,Model: nvidia/GR00T-N1-2B. Task: Robotics. Action: . Input Data: Tabular data. Framework: . Institution: 
+physical-intelligence/fast,Model: physical-intelligence/fast. Task: Robotics. Action: . Input Data: Tabular data. Framework: . Institution: 
+ecmwf/aifs-single-1.0,Model: ecmwf/aifs-single-1.0. Task: Graph Machine Learning. Action: . Input Data: Tabular data. Framework: . Institution: 
+ibm-research/materials.pos-egnn,Model: ibm-research/materials.pos-egnn. Task: Graph Machine Learning. Action: . Input Data: Tabular data. Framework: . Institution: 
+clefourrier/graphormer-base-pcqm4mv2,Model: clefourrier/graphormer-base-pcqm4mv2. Task: Graph Machine Learning. Action: . Input Data: Tabular data. Framework: . Institution: 
+bztest/xlm-roberta-base-finetuned-panx-de,Model: bztest/xlm-roberta-base-finetuned-panx-de. Task: Token Classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+FacebookAI/xlm-roberta-large-finetuned-conll03-english,Model: FacebookAI/xlm-roberta-large-finetuned-conll03-english. Task: Token Classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+dslim/bert-base-NER,Model: dslim/bert-base-NER. Task: Token Classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+facebook/bart-large-mnli,Model: facebook/bart-large-mnli. Task: Zero-shot classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,Model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli. Task: Zero-shot classification. Action: . Input Data: Tabular data. Framework: . Institution: 
+joeddav/bart-large-mnli-yahoo-answers,Model: joeddav/bart-large-mnli-yahoo-answers. Task: Zero-shot classification. Action: . Input Data: Tabular data. Framework: . Institution: 
