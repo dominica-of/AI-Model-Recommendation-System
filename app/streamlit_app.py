@@ -108,7 +108,7 @@ if page == "Model Recommender":
                 st.info("Querying LLM...")
                 result = llm.infer(prompt)
                 st.success("Recommendation Generated")
-                #st.subheader("✅ Retrieved Models")
+                #st.subheader("Retrieved Models")
                 #st.caption("Below are the recommended models including their associated action descriptions:")
 
                 st.markdown(f"### Recommended Model:\n{result}")
