@@ -2,8 +2,12 @@ import psycopg2
 import pandas as pd
 
 class MetadataFetcher:
-    def __init__(self, dbname, user, password, host='localhost', port='5432'):
-        self.conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
+    #def __init__(self, dbname, user, password, host='localhost', port='5432'):
+        #self.conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
+
+    def __init__(self, dsn):
+        self.conn = psycopg2.connect(dsn=dsn)
+
 
     def fetch_models(self, model_ids):
         if not model_ids:

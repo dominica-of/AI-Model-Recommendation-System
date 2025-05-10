@@ -17,14 +17,25 @@ except Exception:
     api_key = os.getenv("OPENAI_API_KEY")
 
 if not api_key:
-    st.error("❌ OpenAI API key not found! Set it in .streamlit/secrets.toml or environment variable.")
+    st.error("OpenAI API key not found! Set it in .streamlit/secrets.toml or environment variable.")
     st.stop()
 
-# Initialize modules
+
+# Initialize db modules
 retriever = RemoteRetriever(base_url="https://chromadb-api.onrender.com")
-DB_CONFIG = {'dbname': 'model_metadata', 'user': 'dom', 'password': 'password'}
-fetcher = MetadataFetcher(**DB_CONFIG)
+DB_DSN = st.secrets["POSTGRES_DSN"]  # from secrets.toml or .env
+fetcher = MetadataFetcher(dsn=DB_DSN)
 llm = LLM(api_key=api_key)
+
+
+import psycopg2
+
+try:
+    conn = psycopg2.connect(DB_DSN)
+    st.success("Connected to PostgreSQL!")
+except Exception as e:
+    st.error(f"Database connection failed: {e}")
+
 
 # Sidebar page selector
 page = st.sidebar.selectbox("Select Page", ["Model Recommender", "Scoring Engine Explanation"])
