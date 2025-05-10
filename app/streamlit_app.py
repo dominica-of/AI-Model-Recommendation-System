@@ -2,7 +2,8 @@ import os
 import streamlit as st
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from backend.rag.retriever import Retriever
+#from backend.rag.retriever import Retriever
+from backend.rag.remote_retriever import RemoteRetriever
 from backend.rag.metadata_fetcher import MetadataFetcher
 from backend.rag.prompt_template import build_prompt
 from backend.rag.llm_inference import LLM
@@ -20,7 +21,7 @@ if not api_key:
     st.stop()
 
 # Initialize modules
-retriever = Retriever()
+retriever = RemoteRetriever(base_url="https://chromadb-api.onrender.com")
 DB_CONFIG = {'dbname': 'model_metadata', 'user': 'dom', 'password': 'password'}
 fetcher = MetadataFetcher(**DB_CONFIG)
 llm = LLM(api_key=api_key)
