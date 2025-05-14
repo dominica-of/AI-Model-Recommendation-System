@@ -54,7 +54,7 @@ python backend/insert_data.py
 python backend/insert_chromadb.py
 ```
 
-> ⚠️ Ensure both PostgreSQL and ChromaDB services are running locally or available via remote endpoints.
+> Ensure both PostgreSQL and ChromaDB services are running locally or available via remote endpoints.
 
 ### 3. Launch Web Interface
 
@@ -62,7 +62,7 @@ python backend/insert_chromadb.py
 streamlit run app/streamlit_app.py
 ```
 
-## 💬 Example Prompt
+## Example Prompt
 
 > Describe your project , e.g.:
 >
@@ -70,7 +70,7 @@ streamlit run app/streamlit_app.py
 
 The system retrieves the top candidate models from ChromaDB, fetches metadata from PostgreSQL, and generates a reasoned recommendation using GPT-4.
 
-## 🔐 Data Security & Deployment
+## Data Security & Deployment
 
 - PostgreSQL and ChromaDB operate in isolated environments with role-based access.
 - API keys are stored securely via `.env` or `.streamlit/secrets.toml`.
